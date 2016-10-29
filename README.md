@@ -6,6 +6,8 @@ This is slow. Really slow. The framework for multithreading is there but I can't
 
 Every 100th attempt it outputs the current attempt.
 
+On line 55 in main.py or 63 in main_threaded.py is the length requirements. Currently starting at 8 and going to 10. Maybe 11. It's late.
+
 # USAGE: 
 
 python main.py -t 192.168.1.101
