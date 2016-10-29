@@ -1,6 +1,6 @@
 # brute-force-via-POST
 
-This was made to brute force a simple web page located at http://<IPAddress>/cgi-bin/dologin using POST data and checking for the word "Sorry" in the response to see if the attempt was successful.
+This was made to brute force a simple web page located at http://IPAddress/cgi-bin/dologin using POST data and checking for the word "Sorry" in the response to see if the attempt was successful.
 
 This is slow. Really slow. The framework for multithreading is there but I can't seem to figure out how to reliably skip every n-th iteration of the iterable within the thread and not affect the other threads.
 
