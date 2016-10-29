@@ -1,8 +1,5 @@
 import sys, getopt, io, threading, itertools, requests
-import numpy as np
 from timeit import default_timer as timer
-from urlparse import urlparse
-from httplib import HTTPConnection
 
 start = timer()
 charset = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
